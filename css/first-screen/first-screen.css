@@ -1,0 +1,18 @@
+.first-screen{
+    background-image: url('../../img/first-screen.png');
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+
+.first-screen__logo{
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+
+.first-screen__text{
+    max-width: 730px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 160px;
+}

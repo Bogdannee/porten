@@ -1,0 +1,40 @@
+.logo{
+    display: inline-flex;
+    color: white;
+}
+
+.logo__inner-text{
+    font-family: 'Post No Bills Jaffna', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.logo__inner-h-line{
+    width: 180px;
+    margin-bottom: 15px;
+    border:2px solid white;
+}
+
+.logo_theme_square{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 93px 67px;
+    border: 1px solid white;
+}
+
+.logo__inner-text_size-big{
+    font-size: 64px;
+    line-height: 58px;
+}
+
+.logo__inner-text_style1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+}
+
+@media (max-width: 426px){
+    .logo_theme_square{
+        padding: 63px 47px;
+    }
+}

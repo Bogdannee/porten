@@ -1,0 +1,38 @@
+.collection{
+    color: white;
+    display: inline-block;
+}
+
+.collection__label{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.collection__h-line{
+    width: 120px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+}
+
+.collection__description{
+    padding-bottom: 60px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 471px;
+}
+
+.collection__inner{
+    text-align: center;
+}
+
+
+.collection__button{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    padding: 12px 28px;
+    border: 1px solid white;
+    display: inline-block;
+}

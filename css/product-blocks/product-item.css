@@ -1,0 +1,35 @@
+.product-item{
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding: 25px;
+}
+
+.product-item__img{
+    padding: 55px 22px;
+    background-color: #191B1C;
+}
+
+.product-item__img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.product-item__name{
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.product-item__price{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+@media (max-width: 1900px){
+    .product-item__img{
+        padding: 30px 0px;
+    }
+    .product-item{
+        padding: 10px;
+    }
+}

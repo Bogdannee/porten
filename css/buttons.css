@@ -1,0 +1,38 @@
+.button{
+    color: #FFFFFF;
+    padding: 12px 28px;
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    line-height: 23px;
+}
+
+.button-nav{
+    padding: 31px 20px;
+    font-size: 14px;
+    border: 0;
+    line-height: 18px;
+}
+
+.button-nav:hover{
+    background-color:  #1F1F1F;
+    color:white;
+}
+
+.button-category{
+    padding: 10px 20px;
+    border: 0;
+    background-color: black;
+    font-size: 14px;
+}
+
+.button-space-around{
+    margin: 10px;
+}
+
+@media (max-width: 768px){
+    .button-category{
+        font-size: 12px;
+    }
+}

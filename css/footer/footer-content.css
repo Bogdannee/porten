@@ -1,0 +1,11 @@
+.footer-content{
+    background-image: url('../../img/footer-background.png');
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
+}
+
+.footer-shop_position{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}

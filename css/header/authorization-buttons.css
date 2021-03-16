@@ -1,0 +1,22 @@
+.authorization-buttons{
+    display: flex;
+    color: white;
+}
+
+.authorization-buttons__log-in, .authorization-buttons__sign-up{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color:#969696;
+}
+
+.authorization-buttons__img > img{
+    vertical-align: baseline;
+}
+
+.authorization-buttons__img{
+    padding-right: 14px;
+}
+
+.authorization-buttons__log-in:hover, .authorization-buttons__sign-up:hover{
+    color: white;
+}

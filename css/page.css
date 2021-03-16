@@ -1,0 +1,11 @@
+@media (min-width: 1200px){
+    .page__container{
+        max-width: 1110px;
+    }
+}
+
+@media (max-width: 991px){
+    .page__container{
+        width: auto;
+    }
+}

@@ -1,0 +1,59 @@
+
+
+.font-Playfair-Display{
+    font-family: 'Playfair Display', serif;
+}
+
+.font-PT-Sans{
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+/*.font-Post-No-Bills-Jaffna{
+    font-family: 'Post No Bills Jaffna', sans-serif;
+    font-weight: 700;
+}
+*/
+.font_transform_uppercase{
+    text-transform: uppercase;
+}
+
+.font_size_small{
+    font-size: 12px;
+}
+
+.font_size_medium{
+    font-size: 14px;
+}
+
+.font_size_super-medium{
+    font-size: 16px;
+}
+
+.font_size_big{
+    font-size: 18px;
+}
+
+.font_size_super-big{
+    font-size: 24px;
+}
+
+.font_line-height_small{
+    line-height: 21px;
+}
+
+.font_line-height_medium{
+    line-height: 24px;
+}
+
+/*.font__size_large{
+    font-size: 36px;
+}
+*/
+.font_size_super-large{
+    font-size: 64px;
+}
+
+/*.font_color_gray{
+    color: #969696;
+}*/

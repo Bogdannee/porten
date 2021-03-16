@@ -1,0 +1,11 @@
+.footer-last-line{
+    background-color: #0F0F0F;
+    height: 50px;
+}
+
+.footer-last-line__inner{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

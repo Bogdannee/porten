@@ -1,0 +1,28 @@
+.work-info{
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color:#969696;
+}
+
+.work-info__img{
+    padding-right: 16px;
+}
+
+.work-info__img > img{
+    vertical-align: baseline;
+}
+
+.work-info__link{
+    color:#969696;
+}
+
+.work-info__link:hover{
+    color: white;
+}
+
+@media (max-width: 520px){
+    .work-info__text{
+        display: none;
+    }
+}
