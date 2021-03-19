@@ -1,5 +1,5 @@
 .product-list{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -20,6 +20,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .product-list__items-padding_small > .product-item{

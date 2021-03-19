@@ -5,13 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/post-no-bills-jaffna?styles=18991" rel="stylesheet">
     
-
     <!-- CSS -->
     <link href="css/header/header.css" rel="stylesheet">
     <link href="css/header/work-info.css" rel="stylesheet">
@@ -33,6 +27,9 @@
     <link href="css/footer/footer-content.css" rel="stylesheet">
     <link href="css/footer/footer-last-line.css" rel="stylesheet">
     <link href="css/footer/shop.css" rel="stylesheet">
+    <link href="css/main-content/main-slider.css" rel="stylesheet">
+    <link href="css/new-goods/new-goods-slider.css" rel="stylesheet">
+    <link href="css/our-brand/brand-slider.css" rel="stylesheet">
     
     <title>Porten</title>
 
@@ -98,12 +95,12 @@
                          </li>
                          <li class="menu__item">
                              <a href="#">
-                                <img src="./img/korzina.svg" class="menu__item-button" alt="">
+                                <img src="./img/korzina.svg" class="menu__item-button-img" alt="">
                             </a>
                          </li>
                          <li class="menu__item">
                             <a href="#">
-                                <img src="./img/Search.svg" class="menu__item-button" alt="">
+                                <img src="./img/Search.svg" class="menu__item-button-img" alt="">
                             </a>
                          </li>
                     </ul>
@@ -140,13 +137,16 @@
                             СЕЗОН 2020/21
                         </div>
                         <hr class="product-list__h-line">
-                        <div class="product-list__items">
+                        <div class="product-list__items product-slider">
+                            <div class="bt-prev">
+                                <img src="./img/left_icon.svg" alt="">
+                            </div>
                             <div class="product-item">
                                 <div class="product-item__img">
                                     <img src="./img/product-item.png" alt="">
                                 </div>
                                 <div class="product-item__name">
-                                    Louis XVI ATHOS
+                                    Louis XVI ATHOS1
                                 </div>
                                 <div class="product-item__price">
                                     165 000 руб.  
@@ -158,7 +158,7 @@
                                     <img src="./img/product-item.png" alt="">
                                 </div>
                                 <div class="product-item__name">
-                                    Louis XVI ATHOS
+                                    Louis XVI ATHOS2
                                 </div>
                                 <div class="product-item__price">
                                     165 000 руб.  
@@ -170,11 +170,14 @@
                                     <img src="./img/product-item.png" alt="">
                                 </div>
                                 <div class="product-item__name">
-                                    Louis XVI ATHOS
+                                    Louis XVI ATHOS3
                                 </div>
                                 <div class="product-item__price">
                                     165 000 руб.  
                                 </div>
+                            </div>
+                            <div class="bt-next">
+                                <img src="./img/right_icon.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -236,16 +239,8 @@
                     </div>
                     <hr class="product-list__h-line">
                     <div class="product-list__items product-list__items-padding_small">
-                        <div class="product-item">
-                            <div class="product-item__img">
-                                <img src="./img/product-item.png" alt="">
-                            </div>
-                            <div class="product-item__name">
-                                Louis XVI ATHOS
-                            </div>
-                            <div class="product-item__price">
-                                165 000 руб.  
-                            </div>
+                        <div class="bt-prev1">
+                            <img src="./img/left_icon.svg" alt="">
                         </div>
                         <div class="product-item">
                             <div class="product-item__img">
@@ -323,6 +318,20 @@
                             <div class="product-item__price">
                                 165 000 руб.  
                             </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item__img">
+                                <img src="./img/product-item.png" alt="">
+                            </div>
+                            <div class="product-item__name">
+                                Louis XVI ATHOS
+                            </div>
+                            <div class="product-item__price">
+                                165 000 руб.  
+                            </div>
+                        </div>
+                        <div class="bt-next1">
+                            <img src="./img/right_icon.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -336,8 +345,8 @@
                     </div>
                     <hr class="product-list__h-line">
                     <div class="product-list__items">
-                        <div class="our-brand__brands-img">
-                            <img src="./img/brand.png" alt="">
+                        <div class="bt-prev2">
+                            <img src="./img/left_icon.svg" alt="">
                         </div>
                         <div class="our-brand__brands-img">
                             <img src="./img/brand.png" alt="">
@@ -348,7 +357,12 @@
                         <div class="our-brand__brands-img">
                             <img src="./img/brand.png" alt="">
                         </div>
-                        
+                        <div class="our-brand__brands-img">
+                            <img src="./img/brand.png" alt="">
+                        </div>
+                        <div class="bt-next2">
+                            <img src="./img/right_icon.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -427,6 +441,9 @@
     </footer>
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="./js/burger-menu.js"></script> 
+    <script src="./js/burger-menu.js"></script>
+    <script src="./css/main-content/main-slider.js"></script> 
+    <script src="./css/new-goods/new-goods-slider.js"></script> 
+    <script src="./css/our-brand/brand-slider.js"></script>
   </body>
 </html>

@@ -1,0 +1,16 @@
+.bt-next2, .bt-prev2{
+    background-color: #969696;
+    width: 25px;
+    height: 35px;
+    display: none;
+}
+
+.bt-prev2 > img{
+    width: 100%;
+    height: 100%;
+}
+
+.bt-next2 > img{
+    width: 100%;
+    height: 100%;
+}
