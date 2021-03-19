@@ -16,3 +16,10 @@
     margin: auto;
     padding-bottom: 160px;
 }
+
+@media (max-width: 769px){
+    .first-screen__text{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

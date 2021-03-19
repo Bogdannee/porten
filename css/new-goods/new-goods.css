@@ -6,3 +6,22 @@
     padding-top: 120px;
     padding-bottom: 150px;
 }
+
+.new-goods__slider{
+    display: none;
+}
+
+@media (max-width: 769px){
+    .new-goods__product-list{
+        display: none;
+    }
+
+    .new-goods__slider{
+        display: flex;
+        padding-top: 120px;
+        padding-bottom: 150px;
+        max-width: 320px;
+        text-align: center;
+        margin: auto;
+    }
+}

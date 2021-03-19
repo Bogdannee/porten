@@ -12,7 +12,23 @@
     padding: 9px;
 }
 
+.our-brand__slider{
+    display: none;       
+}
+
 .our-brand__brands-img > img{
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 769px){
+    .our-brand__brands{
+        display: none;
+    }
+
+    .our-brand__slider{
+        display: flex;
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
 }

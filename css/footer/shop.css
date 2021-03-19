@@ -22,6 +22,8 @@
 
 .shop__mail-form{
     padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .shop__mail-form-input{
